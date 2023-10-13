@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>git y git hub</title>
+    <link rel="stylesheet" href="STYLE CSS/Style.css">
+</head>
+
+<body>
+    <h1>Git y Git Hub</h1>
+    <p>Git es un sistema de control de versiones distribuido de código abierto diseñado para ser rápido y eficiente.
+        Un sistema de control de versiones permite a sus usuarios almacenar revisiones diferentes de un mismo archivo y
+        compararlas, restaurarlas y a veces mezclarlas.
+        Comparado con sistemas de control de versión antiguos como SVN o CVS, Git no necesita de un repositorio (lugar
+        donde se alojan los archivos y sus versiones) central. Esto es lo que lo hace un sistema distribuido lo cual da
+        una flexibilidad imposible con otros sistemas.
+        Los repositorios de cada usuarios son un clon completo y no una copia parcial de la última versión, esto
+        permite, entre otras cosas, trabajar en modo offline, para luego, en caso de ser necesario, sincronizar los
+        cambios con un repositorio remoto (trabajo colaborativo).
+    </p>
+    <article class="articulo">
+        <h2><u>Git Status</u></h2>
+        <p>Descripsion de git status</p>
+        <p>Para verificar el estado de nuestro repositorio ejecutamos el comando git status. En este caso la salida
+            debería ser similar a esta:
+        </p>
+        <p>C:\Users\Secretaría 2\Desktop\UNAF-DESARROLLADOR DE SOFTWARE>git status
+        </p>
+        <p>On branch master. <br>
+            No commits yet <br>
+            nothing to commit (create/copy files and use "git add" to track)
+        </p>
+    </article><br>
+    <article class="articulo">
+        <h2><u>Git Init</u></h2>
+        <p>Descripsion de git Init</p>
+        <p>La salida debería ser similar a :
+            C:\Users\Secretaría 2\Desktop\UNAF-DESARROLLADOR DE SOFTWARE>git init
+            Initialized empty Git repository in C:/Users/Secretaría 2/Desktop/UNAF-DESARROLLADOR DE SOFTWARE/.git/
+        </p>
+    </article><br>
+    <article class="articulo">
+        <h2><u>Git add</u></h2>
+        <p>Descripsion de git add</p>
+        <p>Lo que Git nos dice acá es que tenemos “Untracked files” o archivos sin versionar y nos muestra una lista
+            donde aparece nuestro archivo. También nos indica que para agregarlo en un commit debemos usar el comando
+            git add seguido de la ruta del archivo. Entonces escribimos:
+        </p><br>
+        <p>git add acepta otro tipo de parámetros que nos serán útiles para trabajar con varios archivos a la vez, por
+            ejemplo:</p>
+        <ul>
+            <li>git add *.jpg agregará todos los archivos cuyo nombre termine en .jpg al área de stage.</li> <br>
+            <li>git add ruta/a/directorio agregará todos los archivos del directorio al área de stage. </li><br>
+            <li>>git add . agregará todos los archivos modificados y/o no trackeados al área de stage.</li> <br>
+        </ul>
+
+    </article><br>
+
+    <article class="articulo">
+        <h2><u>Git config</u></h2>
+        <p>Descripsion de git status</p>
+        <p>indica a git que vamos a modificar un elemento de configuración.</p>
+    </article>
+
+    <BR><br>
+    <button type="button" onclick="location.href='index.html'">VOLVER A LA PAGINA PRINCIPAL</button>
+    </BR>
+
+</body>
+
+</html>
